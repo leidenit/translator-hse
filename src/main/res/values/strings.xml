@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Переводчик</string>
+    <string name="title_home">Перевод</string>
+    <string name="title_dashboard">Словарь</string>
+    <string name="title_notifications">Настройки</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_bookmark">BookmarkActivity</string>
+
+    <!-- Default state text -->
+    <string name="default_lang_from">Русский</string>
+    <string name="default_lang_to">Английский</string>
+
+    <!-- Situate text -->
+    <string name="empty_connection_lable">Нет подключения к интернету</string>
+    <string name="share_text">Отправить используя</string>
+
+    <!-- Dialogs -->
+    <string name="history_dialog_header">Очистить историю?</string>
+    <string name="stabs_dialog_header">Очистить закладки?</string>
+    <string name="dialog_subtitle">Все записи будут безвозвратно удалены!</string>
+
+    <!-- Keys -->
+
+    <!-- Static texts -->
+</resources>

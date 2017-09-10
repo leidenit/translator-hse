@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.project.mvgugaev.translator.activity.FullscreenActivity">
+    <!-- Main text -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp">
+        <!-- Fullscreen text -->
+        <TextView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </ScrollView>
+    <!-- Close button -->
+    <Button
+        android:id="@+id/dummy_button"
+        style="?metaButtonBarButtonStyle"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.36"
+        android:background="@drawable/ic_close_black"
+        android:onClick="closeFullScreen" />
+</FrameLayout>

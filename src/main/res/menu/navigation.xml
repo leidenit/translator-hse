@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:background="@drawable/menu_iem_selector"
+        android:checked="true"
+        android:icon="@drawable/ic_translate_black"
+        android:textColor="@drawable/menu_iem_selector"
+        android:title="Перевод"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:background="@drawable/menu_iem_selector"
+        android:icon="@drawable/ic_list_all_black"
+        android:textColor="@drawable/menu_iem_selector"
+        android:title="Словарь"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_iem_selector"
+        android:icon="@drawable/ic_restore_black"
+        android:textColor="@drawable/menu_iem_selector"
+        android:title="История"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_iem_selector"
+        android:icon="@drawable/ic_settings"
+        android:textColor="@drawable/menu_iem_selector"
+        android:title="Настройки"
+        app:showAsAction="always" />
+
+</menu>
